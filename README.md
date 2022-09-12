@@ -11,10 +11,10 @@ Steps:
 
 
 ```
-aws cloudformation create-stack \
-  --stack-name my_cloudbasic_ec2 \
-  --template-body ec2_securitygroup.template \
-  --parameters KeyName=General
+ aws cloudformation deploy \
+  --stack-name my-cloudbasic-ec2 \
+  --template-file ec2_securitygroup.template \
+  --parameter-overrides KeyName=General
   ```
 
   Note: Replace "General" KeyName with your EC2 KeyPair name
