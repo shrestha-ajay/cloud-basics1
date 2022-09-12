@@ -14,7 +14,7 @@ Steps:
  aws cloudformation deploy \
   --stack-name my-cloudbasic-ec2 \
   --template-file ec2_securitygroup.template \
-  --parameter-overrides KeyName=General
+  --parameter-overrides KeyName=General-key-1
   ```
 
   Note: Replace "General" KeyName with your EC2 KeyPair name
