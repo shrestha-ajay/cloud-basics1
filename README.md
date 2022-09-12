@@ -17,4 +17,4 @@ Steps:
   --parameter-overrides KeyName=General-key-1
   ```
 
-  Note: Replace "General" KeyName with your EC2 KeyPair name
+  Note: Replace "General-key-1" KeyName with your EC2 KeyPair name
