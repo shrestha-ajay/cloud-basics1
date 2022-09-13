@@ -4,8 +4,9 @@
 
 
 Steps:
-1. Fork or clone this repository in your Github account
-2. Pull copy of the repository to your local machine
+1. Fork this repository by clicking on "Fork". 
+2. Clone this repository to your local computer by running following:
+   $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 3. Configure AWS CLI in your local machine
 4. Run the following command to create the ec2 instance and security group in your AWS account
 
