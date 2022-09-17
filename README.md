@@ -22,4 +22,6 @@ Steps:
   Note: Replace "General-key-1" KeyName with your EC2 KeyPair name
 
 
-Related Resource: https://towardsdatascience.com/cloud-basics-interacting-with-aws-da179d3f5829
+Related Resources: 
+1. https://towardsdatascience.com/cloud-basics-interacting-with-aws-da179d3f5829
+2. https://s3.us-west-2.amazonaws.com/cloudformation-templates-us-west-2/EC2InstanceWithSecurityGroupSample.template
