@@ -20,3 +20,6 @@ Steps:
   ```
 
   Note: Replace "General-key-1" KeyName with your EC2 KeyPair name
+
+
+Related Resource: https://towardsdatascience.com/cloud-basics-interacting-with-aws-da179d3f5829
