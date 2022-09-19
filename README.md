@@ -18,10 +18,10 @@ This Cloudformation template creates an Amazon EC2 instance running the Amazon L
  aws cloudformation deploy \
   --stack-name my-cloudbasic-ec2 \
   --template-file ec2_securitygroup.template \
-  --parameter-overrides KeyName=General-key-1
+  --parameter-overrides KeyName=YOUR-EC2-KEYPAIR-NAME
   ```
 
-  Note: Replace "General-key-1" KeyName with your EC2 KeyPair name
+  Note: Replace "YOUR-EC2-KEYPAIR-NAME" KeyName with your EC2 KeyPair name
 
 
 ### Related Resources: 
