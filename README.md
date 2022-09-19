@@ -1,9 +1,11 @@
-##This Cloudformation template creates an Amazon EC2 instance running the Amazon Linux AMI. The AMI is chosen based on the region in which the stack is run. This example creates an EC2 security group for the instance to give you SSH access. 
+## Tutorial on different ways of interacting with AWS (APIs) to create resources
+
+This Cloudformation template creates an Amazon EC2 instance running the Amazon Linux AMI. The AMI is chosen based on the region in which the stack is run. This example creates an EC2 security group for the instance to give you SSH access. 
 
 **WARNING** This template creates an Amazon EC2 instance. You will be billed for the AWS resources used if you create a stack from this template.
 
 
-Steps:
+### Steps:
 1. Fork this repository by clicking on "Fork". 
 2. Clone this repository to your local computer by running following:
 
@@ -22,6 +24,6 @@ Steps:
   Note: Replace "General-key-1" KeyName with your EC2 KeyPair name
 
 
-Related Resources: 
+### Related Resources: 
 1. https://towardsdatascience.com/cloud-basics-interacting-with-aws-da179d3f5829
 2. https://s3.us-west-2.amazonaws.com/cloudformation-templates-us-west-2/EC2InstanceWithSecurityGroupSample.template
